@@ -1,2 +1,7 @@
-# truth-seeker-search-engine
-A search engine featuring a clean list of real web results, ranked by a transparent, rule-based truth-seeking metric instead of advertising dollars or engagement farming, and presented with zero AI-generated text.
+# Truth-Seeker Search Engine
+
+A minimal Python script that searches via DuckDuckGo and re-ranks results using transparent, rule-based heuristics prioritizing objective sources (.gov, .edu, scientific domains) over sensationalist ones.
+
+## Installation
+```bash
+pip install duckduckgo-search
