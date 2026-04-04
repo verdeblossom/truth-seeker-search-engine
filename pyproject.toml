@@ -1,0 +1,18 @@
+[project]
+name = "truth-seeking-search-engine"
+version = "1.1.0"
+description = "A no-AI, truth-seeking search engine that re-ranks DuckDuckGo results by grounding in objective reality"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+dependencies = [
+    "ddgs>=9.12.1",
+    "streamlit>=1.56.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/verdeblossom/truth-seeking-search-engine"
+Repository = "https://github.com/verdeblossom/truth-seeking-search-engine"
+
+[project.scripts]
+truth-search = "truth_search:main"   # optional CLI entry point (we can add later)
