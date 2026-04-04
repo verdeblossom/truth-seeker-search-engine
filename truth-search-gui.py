@@ -11,7 +11,10 @@ TRUST_BOOST = {
     'nih.gov': 28, 'cdc.gov': 28, 'nasa.gov': 28, 'who.int': 25,
     'nature.com': 22, 'science.org': 22, 'arxiv.org': 21,
     'pubmed.ncbi.nlm.nih.gov': 22, 'mit.edu': 20,
-    'wikipedia.org': 12,
+    'grokipedia.com': 20,
+    'citizendium.org': 18,     # Real-name + expert oversight
+    'scholarpedia.org': 19,    # Peer-reviewed experts
+    'wikipedia.org': 8,
 }
 
 PRIMARY_SOURCE_INDICATORS = {
