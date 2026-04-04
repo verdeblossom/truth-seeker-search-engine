@@ -1,1 +1,2 @@
-duckduckgo-search
+ddgs>=9.12.1
+streamlit>=1.56.0
