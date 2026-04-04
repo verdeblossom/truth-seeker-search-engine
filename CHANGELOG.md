@@ -1,30 +1,30 @@
 # Changelog
 
-All notable changes to the Truth-Seeking Search Engine will be documented in this file.
-
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 ### Added
-- Support for the new `ddgs` package (replaces old `duckduckgo-search`)
-- Increased default results to 40 for richer output
-- Minor heuristic improvements (e.g., light boosts for math/educational content)
+- Graphical User Interface (GUI) using Streamlit with clickable result links
+- Browser-based interface for easier daily research use
+- Clean, professional README.md with clear console + GUI instructions
 
 ### Changed
-- Updated import from `duckduckgo_search` to `ddgs`
-- Script renamed/restructured to `truth-search-v3.py` (or your preferred name)
-- Improved installation instructions
+- Updated installation and usage sections to reflect both versions
+- Minor markdown polishing for readability
 
-### Fixed
-- Removed RuntimeWarning related to package rename
+## [v3.0.0] - 2026-04-04
+### Added
+- v3 truth-seeking heuristics with improved primary-source detection
+- Support for the new `ddgs` package
+- Increased default results to 40
 
 ## [v2.0.0] - 2026-04-04
 ### Added
-- v2 truth-seeking heuristics with primary source detection (.pdf, DOI, reports)
-- Score breakdown display for transparency
+- Primary source indicators (.pdf, DOI, reports)
+- Score breakdown display for full transparency
 
 ## [v1.0.0] - Initial Release
 ### Added
-- Basic DuckDuckGo search with rule-based truth-seeking re-ranking
-- Boosts for .gov, .edu, scientific domains
-- Penalties for low-credibility sites
+- Core DuckDuckGo search with rule-based truth-seeking re-ranking
+- Boosts for .gov/.edu/scientific domains
+- Penalties for low-credibility domains
