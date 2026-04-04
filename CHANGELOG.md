@@ -26,4 +26,4 @@ The ranking now better aligns with the project's supreme directive: grounding re
 - v3 truth-seeking heuristics with improved primary-source detection
 - Support for the new `ddgs` package
 
-(Older entries can stay below if you already have them)
+
