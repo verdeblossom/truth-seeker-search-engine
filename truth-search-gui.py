@@ -1,10 +1,9 @@
-```python
 import streamlit as st
 from urllib.parse import urlparse
 from ddgs import DDGS
 
 # ===================================================================
-# TRUTH-SEEKING HEURISTICS v3 (same as console version)
+# TRUTH-SEEKING HEURISTICS v3
 # ===================================================================
 TRUST_BOOST = {
     '.gov': 25, '.mil': 25, '.int': 20, '.edu': 22, '.ac.uk': 20,
