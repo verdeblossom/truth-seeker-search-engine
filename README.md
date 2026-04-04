@@ -8,3 +8,24 @@ A minimal, no-AI Python script that searches via DuckDuckGo and **re-ranks** res
 
 ```bash
 pip install ddgs
+
+## Usage
+**Console Version (fast, for quick terminal searches)
+
+```bash
+python truth-search.py "your query here"
+
+**GUI Version (Recommended — opens in browser with clickable links)
+
+```bash
+streamlit run truth-search-gui.py
+
+After running the GUI command, a browser window will automatically open.
+
+## Features
+
+Pure rule-based truth-seeking ranking (no AI involved)
+Strong priority for official, academic, and primary sources
+Penalties for low-credibility and noisy domains
+Fully transparent scoring shown on each result
+Works entirely locally after the initial search
