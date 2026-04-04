@@ -4,4 +4,4 @@ A minimal Python script that searches via DuckDuckGo and re-ranks results using 
 
 ## Installation
 ```bash
-pip install duckduckgo-search
+pip install ddgs
