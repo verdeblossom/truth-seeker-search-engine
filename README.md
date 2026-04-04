@@ -9,7 +9,7 @@ A minimal, no-AI Python script that searches via DuckDuckGo and **re-ranks** res
 
 ```bash
 
-pip install ddgs
+pip install -r requirements.txt
 
 ```
 
